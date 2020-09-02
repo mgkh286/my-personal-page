@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* height: 600px; */
+    background: url(/img/nasa.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    /* background: #4e4b4b; */
+    font-family: 'Helvetica neue', Arial, 'sans serif';
+    text-align: center;
+  }
+
+  img {
+      display: inline-block;
+      width: 20%;
+      height: 20%;
+      margin: 1rem;
+      border: 5px solid #1F2839;
+      border-radius: 10px;
+  }
+
+  img  {
+    animation-name: name;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes name {
+    0%{
+        color: #b11c7393;
+        font-size: 20px;
+    }
+    25% {
+        color: #69655e;
+    }
+    50% {
+        color: #5a5a51;
+        font-size: 40px;
+        transform: translateX(200px);
+    }
+    75%{color: #008000d7;
+    }
+    100% {
+        color: #0000ff50;
+        font-size: 20px;
+    }
+
+}
+
+  h2 {
+      margin: 2rem 1rem;
+      padding: 1rem;
+      color: #fff;
+      font-size: 3rem;
+      font-weight: 500;
+      letter-spacing: 3px;
+      background: #5c88c138;
+      width: 100%;
+      border: 3px solid #203c5c63;
+      border-radius: 8px;
+  }
+
+h2  {
+    animation-name: name;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes name {
+    0%{
+        color: #0E2640;
+        font-size: 20px;
+    }
+    25% {
+        color: #69655e;
+    }
+    50% {
+        color: #E7CBA2;
+        font-size: 40px;
+        transform: translateX(200px);
+    }
+    75%{color: #008000d7;
+    }
+    100% {
+        color: #0000ff50;
+        font-size: 20px;
+    }
+
+}
+
+  article {
+    border: 5px solid #ffffffa4;
+    border-radius: 10px;
+      font-size: 1.5rem;
+      margin: 3rem 1rem;
+      padding: 1rem;
+      color: #fff;
+  }
+
+
+  footer {
+      font-size: 2.5rem;
+      margin: 2rem 1rem;
+      padding: 1rem;
+      color: #fff;
+      letter-spacing: 3px;
+      background: #203c5c63;
+      width: 100%;
+      border: 3px solid #203c5c63;
+      border-radius: 10px;
+  }
+
+  
+
+  
+  .card article img
+  .card footer
+  .card header
+  .card
+  
+
+  
+  
